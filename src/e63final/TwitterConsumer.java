@@ -22,10 +22,11 @@ import org.voltdb.client.ProcCallException;
 public class TwitterConsumer extends Thread {
 
     private static final String STREAM_URI = "https://stream.twitter.com/1.1/statuses/filter.json";
-    private static final String API_KEY = "o0uDdmTYYTAhiH12dfMw1jUHm";
-    private static final String API_SECRET = "946gzskJwh88k9ooGuL6ELfriMqJvUscMpbFTSatRVrtAtLT24";
-    private static final String ACCESS_TOKEN = "52340351-7Zsw6l5GCv32gHGEQpW7BhmENWSbed2ILz8lfFrFg";
-    private static final String ACCESS_TOKEN_SECRET = "aLMdmDo6dgNeRAO41NgWi9aJF3429PX5af0GW1rV3HBuO";
+    // add your own keys and tokens from twitter
+    private static final String API_KEY = "";
+    private static final String API_SECRET = "";
+    private static final String ACCESS_TOKEN = "";
+    private static final String ACCESS_TOKEN_SECRET = "";
     
 
     public void run() {
